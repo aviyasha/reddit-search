@@ -1,5 +1,3 @@
-require 'HTTParty'
-
 class RedditService
 	def search(query, sort)
 		end_point = "search.json"
