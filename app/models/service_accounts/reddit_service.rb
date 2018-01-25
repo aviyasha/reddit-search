@@ -1,6 +1,6 @@
-require 'httparty'
-
 class RedditService
+  require 'httparty'
+  
 	def search(query, sort)
 		end_point = "search.json"
     parameters = {
