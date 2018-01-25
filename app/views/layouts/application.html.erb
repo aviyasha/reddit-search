@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RedditSearch</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<nav class="navbar navbar-inverse" style="background-color: #37474F;">
+    <span class="navbar-text" style="font-size:30px">
+      <a href="https://www.perion.com/" target="_blank"><img src="/assets/perion_logo.png" alt="Perion" width="130" height="50"></a>
+    </span>
+  </nav>
+
+<%= yield %>
+
+</body>
+</html>
